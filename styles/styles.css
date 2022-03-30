@@ -176,7 +176,7 @@ body{
 }
 /* Hobbies */
 .hobbies {
-    
+
 }
 
 .hobbie-text {
@@ -242,7 +242,8 @@ body{
 .tech-skills-list,
 .soft-skills-list,
 .general-skills-list,
-.languages-list {
+.languages-list,
+.hobbies-list {
     color: #FFFFFF;
     padding: 0;
     margin-left: 17px;
