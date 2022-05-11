@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+a {
+    transition: all .3s ease-out;
+}
+
 /* main stules */
 .main {
     display: flex;
@@ -103,6 +107,10 @@ body {
 .project-link {
     text-decoration: none;
     margin-left: 10px;
+}
+
+.project-link:hover {
+    color: #FB6D3A;
 }
 
 .project-bracket {
@@ -207,7 +215,7 @@ body {
 /* sidebar styles */
 .aside {
     background-color: #1E2939;
-    /* padding-top: 15px; */
+    padding-top: 50px;
     width: 370px;
 }
 
@@ -275,7 +283,7 @@ body {
 }
 
 .contact-link-page:hover {
-    color: #20a19d;
+    color: #FB6D3A;
 }
 
 .tech-skills-list,
