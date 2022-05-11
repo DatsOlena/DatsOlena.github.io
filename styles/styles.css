@@ -1,7 +1,8 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
 }
+
 /* main stules */
 .main {
     display: flex;
@@ -11,7 +12,7 @@ body{
 }
 
 /* main content */
-.main-content{
+.main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 105px 90px;
@@ -21,8 +22,9 @@ body{
 .project-title {
     font-size: 45px;
 
-/* about styles */
+    /* about styles */
 }
+
 .about {
     margin-bottom: 40px;
 }
@@ -30,7 +32,7 @@ body{
 .about-position {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 17px;
     color: #000000;
     margin-bottom: 20px;
@@ -57,7 +59,7 @@ body{
 
 
 /* project styles */
-.projects{
+.projects {
     margin-bottom: 50px;
 }
 
@@ -106,7 +108,7 @@ body{
 }
 
 /* work styles */
-.work{
+.work {
     margin-bottom: 45px;
 }
 
@@ -118,6 +120,7 @@ body{
     color: #000000;
     margin-bottom: 10px;
 }
+
 .organization {
     color: #FB6D3A;
 }
@@ -153,7 +156,7 @@ body{
 }
 
 /* education styles*/
-.education{
+.education {
     margin-bottom: 50px;
 }
 
@@ -174,12 +177,11 @@ body{
     color: #000000;
     margin-bottom: 10px;
 }
-/* Hobbies */
-.hobbies {
 
-}
+/* hobbies */
+.hobbies {}
 
-.hobbie-text {
+.hobby-text {
     color: #595959;
     font-style: normal;
     font-weight: 400;
@@ -189,15 +191,14 @@ body{
 
 /* sidebar styles */
 .aside {
-    background-color:#1E2939; 
+    background-color: #1E2939;
     padding-top: 40px;
     width: 370px;
 }
 
 .foto {
     width: 370px;
-    margin-bottom: 50px;
-
+    margin-bottom: 15px;
 }
 
 .sidebar-title {
@@ -205,7 +206,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 27px; 
+    line-height: 27px;
     margin-bottom: 10px;
 }
 
@@ -264,14 +265,11 @@ body{
 .soft-skills-item,
 .general-skills-item,
 .languages-item,
-.hobbie-item {
+.hobby-item {
     color: #FB6D3A;
 }
 
-.tech-skills
-.soft-skills,
-.general-skills,{
-margin-bottom: 45px;
+.tech-skills .soft-skills,
+.general-skills {
+    margin-bottom: 20px;
 }
-
-
