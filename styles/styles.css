@@ -243,8 +243,7 @@ body {
 .tech-skills-list,
 .soft-skills-list,
 .general-skills-list,
-.languages-list,
-.hobbies-list {
+.languages-list {
     color: #FFFFFF;
     padding: 0;
     margin-left: 17px;
@@ -252,6 +251,8 @@ body {
 
 .hobbies-list {
     color: #595959;
+    padding: 0;
+    margin-left: 17px;
 }
 
 .tech-skills-text,
