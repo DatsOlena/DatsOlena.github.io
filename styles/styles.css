@@ -1,6 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
+    margin: 0;
+    padding: 0;
 }
 
 /* main stules */
@@ -125,6 +131,15 @@ body {
     color: #FB6D3A;
 }
 
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link:hover {
+    color: #20a19d;
+}
+
 .period {
     font-style: normal;
     font-weight: 400;
@@ -192,11 +207,11 @@ body {
 /* sidebar styles */
 .aside {
     background-color: #1E2939;
-    padding-top: 40px;
+    /* padding-top: 15px; */
     width: 370px;
 }
 
-.foto {
+.photo {
     width: 370px;
     margin-bottom: 15px;
 }
@@ -238,6 +253,29 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     opacity: 0.5;
+}
+
+.contact-link:hover {
+    color: #20a19d;
+}
+
+.contact-pages {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 32px;
+}
+
+.contact-link-page {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact-link-page:hover {
+    color: #20a19d;
 }
 
 .tech-skills-list,
