@@ -7,6 +7,7 @@ body {
     background-color: #F5F7FA;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -17,7 +18,7 @@ a {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -25,9 +26,8 @@ a {
 .main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 30px 80px 10px;
 }
-
 
 .project-title {
     font-size: 45px;
@@ -63,10 +63,33 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 400px;
+    width: 500px;
     text-align: justify;
 }
 
+.about-video {
+    max-width: 200px;
+}
+
+.about-video-link {
+    text-decoration: none;
+    color: #FB6D3A;
+    display: flex;
+    align-items: center;
+}
+
+.about-video-link :hover{
+    color: #e24c15;  
+}
+
+.about-video-text {
+    margin-right: 5px;
+}
+
+.about-video-img {
+    width: 45px;
+    height: 45px;
+}
 
 /* project styles */
 .projects {
@@ -154,7 +177,7 @@ a {
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
-    margin-bottom: 10px;
+    margin: 5px 0;
 }
 
 .line {
@@ -176,6 +199,18 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+}
+
+
+.work-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 500px;
+    text-align: justify;
+    margin: 5px 0;
 }
 
 /* education styles*/
@@ -201,26 +236,28 @@ a {
     margin-bottom: 10px;
 }
 
-/* hobbies */
-.hobbies {}
+/* CV */
+.pdf-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
 
-.hobby-text {
-    color: #595959;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.get-cv {
+    position: relative;
 }
 
 /* sidebar styles */
 .aside {
     background-color: #1E2939;
     padding-top: 50px;
-    width: 370px;
+    max-width: 350px;
 }
 
 .photo {
-    width: 370px;
+    max-width: 350px;
     margin-bottom: 15px;
 }
 
@@ -237,7 +274,8 @@ a {
 .tech-skills,
 .soft-skills,
 .general-skills,
-.languages {
+.languages,
+.hobbies-title {
     margin-left: 40px;
 }
 
@@ -296,9 +334,8 @@ a {
 }
 
 .hobbies-list {
-    color: #595959;
     padding: 0;
-    margin-left: 17px;
+    margin-left: 0;
 }
 
 .tech-skills-text,
@@ -321,6 +358,22 @@ a {
 }
 
 .tech-skills .soft-skills,
-.general-skills {
+.general-skills, .hobbies {
     margin-bottom: 20px;
+}
+
+/* hobbies */
+.hobbies {}
+
+.hobbies-list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.hobby-icon {
+    width: 45px;
+    height: 45px;
 }
